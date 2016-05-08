@@ -1,0 +1,448 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat:700,400);
+@import url(http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic);
+
+body{
+	font-family: Lato,Calibri,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+h1, h2, h3, h4, h5{
+	text-align: left;
+}
+
+h4{
+	font-size: 1.3em
+}
+
+h5{
+	font-size: 1em;
+	color: #666;
+}
+
+.navIcon{
+	height:35px;
+}
+.navbar-brand{
+	padding:12px 7.5px;
+}
+header.navbar-default{
+	position: fixed;
+	width:100%;
+	top:0;
+	z-index: 9;
+}
+.headroom {
+    transition: -webkit-transform 200ms linear;
+    transition: transform 200ms linear;
+}
+.headroom--pinned {
+    -webkit-transform: translate(0,0);
+            transform: translate(0,0);
+}
+.headroom--unpinned {
+    -webkit-transform: translate(0,0);
+            transform: translate(0,-100%);
+}
+
+.note-page,.notesFeed
+{
+  width:96%;
+  max-width:760px;
+  margin:0 auto;
+  padding:100px 0 0 20px;
+}
+.note-page img{
+	max-width:100%;
+	margin:0 auto;
+	display:block;
+}
+.note-page h1,.note-page h2,.note-page h3
+{
+  text-align:left;
+}
+.authorImage{
+	max-height:50px;
+	display:inline-block;
+}
+.authorName{
+	display:inline-block;
+	margin:0 20px;
+	vertical-align: middle;
+}
+.authorImage img{
+	height:50px;
+	padding:0; margin:0;
+	display:inline-block;
+}
+.tags{
+	padding:1em;
+}
+.tags a, .tags a:visited{
+	display:inline-block;
+	color:#aaa;
+	margin:1em;
+}
+header{
+	display:block;
+}
+article{
+	clear:both;
+	text-align:justify;
+}
+.mainTitle{
+	color:#000;
+	font-size:48px;
+	margin-bottom:20px;
+}
+.notesFeed .single-note{
+	padding:20px;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	margin-bottom: 30px;
+	box-shadow: 5px 5px 20px #dddddd;	
+}
+.skeleton-link,.skeleton-link:hover{
+	color:inherit;
+	text-decoration: none;
+}
+
+.nav-form-element{
+	margin: 0;
+}
+
+main.container{
+	margin-top: 100px;
+	margin-bottom: 50px;
+}
+
+main img{
+	width: 100%;
+}
+
+.profilePicture figcaption{
+	text-align: center;
+}
+
+.btn-file {
+	width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 100px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    background: white;
+    cursor: inherit;
+    display: block;
+}
+
+#contacts a{
+	margin-left: 10px;
+}
+
+.skill{
+	margin-left: 10px;
+}
+
+.person-details { 
+	color: #555;
+	text-align: center;
+	font-size: 11px;
+	font-weight: 600;
+	letter-spacing: .1rem;
+	text-decoration: none;
+	background-color: transparent;
+	border-radius: 4px;
+	border: 1px solid #bbb;
+	cursor: pointer;
+	box-sizing: border-box;
+}
+
+.person-details h3{
+	margin: 0;
+	padding: 0 5px;
+	font-size: 2em;
+	text-align: center;
+}
+
+.person-details p{
+	margin: 0;
+}
+
+#news .person-details p{
+	padding: 0px 15px;
+}
+
+
+.person-details p + p{
+	margin-bottom: 10px;
+}
+
+#news a{
+	color: #555;
+}
+
+#news a:hover{
+	text-decoration: none;
+	color: #222;
+}
+
+#user-profile h1{
+	margin: 0;
+	line-height: 1;
+}
+
+#user-profile h3{
+	margin-bottom: 3px;
+	font-size: 2em;
+	font-family: Lato,Calibri,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	color: #666;
+}
+
+#user-profile p{
+	margin-bottom: 10px;
+}
+
+.five-margin-left{
+	margin-left: 5px;
+}
+
+.fifteen-below{
+	margin-bottom: 15px;
+}
+
+#directory-page .three.columns{
+	width: 20%;
+}
+
+.navbar-nav>li>a {
+	padding-top: 18px;
+	padding-bottom: 6px;
+}
+
+select{
+	width: 100%;
+}
+
+
+footer{
+	border-top: 1px #e7e7e7 solid;
+	padding-top: 15px;
+}
+
+footer ul{
+	list-style:none;
+}
+
+footer ul li{
+	display: inline-block;
+}
+
+footer ul li:after{
+	content: " | " ;
+}
+
+footer ul li:last-of-type:after{
+	content:none;
+}
+
+.include-breaks{
+	white-space:pre-wrap;
+}
+
+.homepage-heading{
+	font-size: 3.9rem;
+	text-align: center;
+}
+
+.homepage-heading + p{
+	font-size: 1.3em;
+	text-align: justify;
+}
+
+.founder{
+	margin-top: 30px;
+}
+
+
+#update-news img{
+	width: 200px;
+}
+
+#user-profile.messages{
+	font-size: 0.8em;
+}
+
+.message-bubble{
+	min-height: 88px;
+	border-radius: 10px;
+	padding: 10px;
+	color: white;
+}
+
+.row.message{
+	margin-top: 20px;
+}
+
+.message-bubble.sender{
+	background: #2980b9;
+}
+
+.message-bubble.receiver{
+	background: #2c3e50;
+}
+
+#user-profile.messages img{
+	transition: all 1s;
+}
+
+#user-profile.messages img:hover{
+	transition: width 1s;
+	width: 120%;
+}
+
+#info h1 a:hover{
+	text-decoration: none;
+}
+
+.unread{
+	background: #e67e22;
+	overflow: hidden;
+	padding: 5px;
+}
+
+.unread a{
+	color: white;
+}
+
+.unread a:hover{ 
+	opacity: 0.9;
+}
+
+.unread small{
+	color: white;
+	font-size: 0.3em;
+}
+
+.warning{
+	background: #c0392b;
+	color: white;
+}
+
+.twitter{
+	background: #00ACED;
+	font-size: 2em;
+	color: white !important;
+}
+
+a.twitter:hover{
+	opacity: 0.8;
+}
+
+.facebook{
+	background: #3B5997;
+	font-size: 2em;
+	color: white !important;
+}
+
+a.facebook:hover{
+	opacity: 0.8;
+}
+
+.google-plus{
+	background: #D90016;
+	font-size: 2em;
+	color: white !important;
+}
+
+a.google-plus:hover{
+	opacity: 0.8;
+}
+
+.dropdown:hover .dropdown-menu{
+	display:block;
+}
+
+/* UTILITIES */
+.u-left-align{
+	text-align: left;
+}
+
+.no-margin{
+	margin: 0;
+}
+
+.height-250{
+	height: 250px;
+}
+
+.height-100{
+	height: 100px;
+}
+
+.u-normal-weight{
+	font-weight: 500;
+}
+
+
+@media all and (max-width: 700px){
+	main{
+		margin-top: 200px;
+	}
+
+	#directory-page .three.columns{
+		width: 100%;
+	}
+
+	.thumb{
+		display: block;
+	    overflow: hidden;
+	    max-height: 300px;
+	}
+
+	.thumb img{
+		display: block; /* Otherwise it keeps some space around baseline */
+	    min-width: 100%;    /* Scale up to fill container width */
+	    min-height: 100%;   /* Scale up to fill container height */
+	    -ms-interpolation-mode: bicubic; /* Scaled images look a bit better in IE now */
+	}
+
+	#user-management{
+		padding: 0px 60px 0 15px;
+		margin-left: 20px;
+	}
+}
+
+@media (min-width: 550px){
+	.search-input {
+	  margin-left: 3%;
+	}
+}
+
+@media all and (min-width: 700px){
+	.thumb{
+		display: block;
+	    overflow: hidden;
+	    max-height: 180px;
+	}
+
+	.news-thumb{
+		max-height: 304px;
+	}
+
+	.thumb img{
+		display: block; /* Otherwise it keeps some space around baseline */
+	    min-width: 100%;    /* Scale up to fill container width */
+	    min-height: 100%;   /* Scale up to fill container height */
+	    -ms-interpolation-mode: bicubic; /* Scaled images look a bit better in IE now */
+	}
+}
+
+
